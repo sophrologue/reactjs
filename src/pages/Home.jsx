@@ -10,8 +10,11 @@ export const Home = () => {
 
   return (
     <body className="w-screen">
-      <div className="bg-[conic-gradient(at_bottom,_var(--tw-gradient-stops))] from-white via-sky-500 to-green-500">
-        <div style={background} className="h-[80vh]">
+      <div className="">
+        <div style={background} className="h-[100vh] overflow-y-hidden">
+          <h1 className="text-center my-20 text-4xl mb-[-120px]  font-bold h-20">
+            Catherine FABRICI - SOPHROLOGUE
+          </h1>
           <Hero />
         </div>
       </div>

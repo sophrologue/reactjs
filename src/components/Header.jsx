@@ -11,7 +11,7 @@ export const Header = () => {
 
   // bg-gradient-to-b from-orange-500 to-yellow-300
   return (
-    <nav className=" z-99  w-screen drop-shadow-2xl text-gray-700  bg-white font-semibold">
+    <nav className=" z-99   w-screen drop-shadow-2xl text-gray-700  bg-white font-semibold">
       <ul className="w-[880px] h-12  flex items-center justify-evenly mx-auto my-2">
         {/* Welcome */}
         <li>
@@ -23,7 +23,7 @@ export const Header = () => {
         </li>
         {/* Sophrologie */}
         <li>
-          <Link>Sophrologie</Link>
+          <Link to="/sophrologie">Sophrologie</Link>
         </li>
         {/* Sessions */}
         <li

@@ -17,18 +17,18 @@ export const AboutMe = () => {
   // };
 
   return (
-    <div style={background} className="w-screen">
+    <div style={background} className="h-[100%]">
       <div className="p-10">
         <div>
           <button
             onClick={() => setShowStoryTab(true)}
-            className="bg-green-400 text-white w-[200px] h-[50px] border-r"
+            className="bg-yellow-600 bg- text-white w-[200px] h-[50px] border-r hover:brightness-110 duration-300"
           >
             My Story
           </button>
           <button
             onClick={() => setShowStoryTab(false)}
-            className="bg-green-500 text-white w-[200px] h-[50px]"
+            className="bg-yellow-700 text-white w-[200px] h-[50px] hover:brightness-110 duration-300"
           >
             Career
           </button>
