@@ -4,15 +4,10 @@ import { Link } from "react-router-dom";
 import { SessionList } from "./SessionList";
 
 export const Header = () => {
-  const [displayList, setDisplayList] = useState(false);
-  const handleShowSession = () => {
-    setDisplayList(!displayList);
-  };
-
   // bg-gradient-to-b from-orange-500 to-yellow-300
   return (
-    <nav className=" z-99   w-screen drop-shadow-2xl text-gray-700  bg-white font-semibold">
-      <ul className="w-[880px] h-12  flex items-center justify-evenly mx-auto my-2">
+    <nav className=" flex flex-col items-center justify-evenly h-[7rem]  w-screen  drop-shadow-2xl  text-[22px]">
+      <ul className="flex items-center gap-10">
         {/* Welcome */}
         <li>
           <Link to="/">Accueil</Link>
@@ -25,27 +20,29 @@ export const Header = () => {
         <li>
           <Link to="/sophrologie">Sophrologie</Link>
         </li>
-        {/* Sessions */}
-        <li
-          className="flex  items-center cursor-pointer "
-          onClick={handleShowSession}
-        >
-          <span> Sessions</span> <FaAngleDown className="ml-1 " width={20} />
-        </li>
-        {/* Prices */}
         <li>
-          <Link>Prix</Link>
+          {/* Prices */}
+          <Link>Tarifs</Link>
         </li>
-        {/* Contact me */}
         <li>
+          {/* Contact me */}
           <Link>Me contacter</Link>
         </li>
-        {/* Legal Notice */}
         <li>
+          {/* Legal Notice */}
           <Link>Mentions légales</Link>
         </li>
       </ul>
-      {displayList && <SessionList />}
+      <SessionList />
+      {/* Sessions */}
+      {/* <li
+          className="flex  items-center cursor-pointer "
+          // onClick={handleShowSession}
+          onMouseEnter={handleShowSession}
+        >
+          <span> Sessions</span> <FaAngleDown className="ml-1 " width={20} /> */}
+      {/* </li> */}
+      {/* {displayList && <SessionList handleCloseSession={handleCloseSession} />} */}
     </nav>
   );
 };
