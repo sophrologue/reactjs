@@ -1,5 +1,4 @@
 /* eslint-disable react/no-unescaped-entities */
-import { Link } from "react-router-dom";
 import heroImg from "../assets/mountain-v-person.jpeg";
 export const Hero = () => {
   return (
@@ -8,9 +7,12 @@ export const Hero = () => {
       style={{ backgroundImage: `url(${heroImg})` }}
     >
       {/* <img src={heroImg} alt="hero img" className="w-full" /> */}
-      <h1 className="absolute top-5 left-0 right-0 text-center text-[120px] text-white font-[700]">
-        Sophrologie
-      </h1>
+      <div className="absolute top-5 left-0 right-0 text-center  text-white ">
+        <p className="text-[120px] font-[700]"> Sophrologie</p>
+        <p className="text-[40px] text-gray-100">
+          " J'ai décidé d'être heureux. C'est bon pour la santé ! "
+        </p>
+      </div>
       {/* <h2 className="text-2xl text-center">Qui suis-je ?</h2>
       <img src={profileImg} alt="profile img" className="w-[120px]" />
       <p className="">
@@ -31,7 +33,7 @@ export const Hero = () => {
           <Link to="/sophrologie">
             <li className="hover:brightness-110 duration-300 cursor-pointer border w-[250px] text-white font-semibold bg-emerald-500 text-xl rounded-xl h-[50px] flex items-center justify-center hover:cursor-pointer">
               Sessions
-            </li>
+          </li>
           </Link>
           <Link to="/sophrologie/pain_cancer">
             <li className="hover:bg-emerald-100 bg-white w-[400px] font-semibold rounded-xl h-[60px] flex items-center justify-center hover:brightness-110 duration-300 cursor-pointer">

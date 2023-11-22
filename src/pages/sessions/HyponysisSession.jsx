@@ -1,25 +1,23 @@
-/* eslint-disable react/no-unescaped-entities */
-import backgroundImg from "../../assets/heart-large.jpeg";
-import { SessionCategories } from "../SessionCategories";
+import img from "../../assets/hypnosis.jpg";
 
 export const HyponysisSession = () => {
-  const background = {
-    backgroundImage: `url(${backgroundImg})`,
-    backgroundSize: "cover",
-    backgroundRepeat: "no-repeat",
-  };
+  // const background = {
+  //   backgroundImage: `url(${backgroundImg})`,
+  //   backgroundSize: "cover",
+  //   backgroundRepeat: "no-repeat",
+  // };
   return (
-    <div className="flex flex-col" style={background}>
-      <SessionCategories />
+    <div>
+      {/* <div className="flex flex-col" style={background}> */}
+      {/* <SessionCategories /> */}
+
+      <h1 className="text-center text-6xl p-10">Hypnose Humaniste</h1>
+      <div className="w-[30vw] px-10 mx-auto">
+        <img src={img} alt="cancer support" />
+      </div>
 
       <div className="mx-20 bg-[rgba(255,255,255,0.8)] p-10 flex flex-col justify-evenly  relative top-0 right-0 left-0 bottom-0 ">
-        <h1 className="text-center text-4xl mb-8 h-[80px] border-black border flex items-center justify-center font-bold ">
-          Hypnose Humaniste
-        </h1>
-        <h2 className="text-green-600 font-bold text-2xl">
-          L'Hypnose Humaniste pour quoi faire ?
-        </h2>
-        <ul className="h-full  ">
+        <ul className="  ">
           <li>
             L'hypnose fait parler d’elle depuis plusieurs années. Pourtant elle
             peut avoir parfois une image négative. L’hypnose est un jeu d’enfant

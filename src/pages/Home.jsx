@@ -1,21 +1,17 @@
+import { Career } from "../components/Career";
 import { Hero } from "../components/Hero";
-import { AboutMe } from "./AboutMe";
+import { MyStory } from "../components/MyStory";
 
 export const Home = () => {
-  // const background = {
-  //   backgroundImage: `url(${yellowBg})`,
-  //   backgroundSize: "cover",
-  //   backgroundRepeat: "no-repeat",
-  // };
-
   return (
-    <div className="flex flex-col gap-6 w-screen ">
-      {/* <div style={background} className="h-[100vh] overflow-y-hidden"> */}
-
-      {/* <h1 className="text-center my-20 text-4xl mb-[-120px]  font-bold h-20"> */}
-
+    <div className="flex flex-col w-screen ">
       <Hero />
-      <AboutMe />
+
+      {/* <div className="w-full w-max-[90rem] px-[10rem]"> */}
+      <div className="w-screen">
+        <Career />
+        <MyStory />
+      </div>
     </div>
   );
 };

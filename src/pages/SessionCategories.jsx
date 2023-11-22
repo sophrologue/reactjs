@@ -1,15 +1,6 @@
-// import React, { useState } from "react";
-// import backgroundImg from "../assets/heart-large.jpeg";
-
 import { Link } from "react-router-dom";
 
 export const SessionCategories = () => {
-  // const background = {
-  //   backgroundImage: `url(${backgroundImg})`,
-  //   backgroundSize: "cover",
-  //   backgroundRepeat: "no-repeat",
-  // };
-
   return (
     <div className="flex items-center mt-10 mx-20">
       <Link to="/sophrologie">

@@ -1,22 +1,19 @@
 /* eslint-disable react/no-unescaped-entities */
 import { FaCheck } from "react-icons/fa6";
-import { SessionCategories } from "../pages/SessionCategories";
-import backgroundImg from "../assets/heart-large.jpeg";
+import img from "../assets/sophrologie.jpeg";
 
 export const Sophologie = () => {
-  const background = {
-    backgroundImage: `url(${backgroundImg})`,
-    backgroundSize: "cover",
-    backgroundRepeat: "no-repeat",
-  };
   return (
-    <div className="flex flex-col" style={background}>
-      <SessionCategories />
+    <div className="flex flex-col">
+      <h1 className="text-center text-4xl p-10">
+        Qu'est-ce que la sophrologie ? Qu'est-ce que la sophrologie ?
+      </h1>
+      <div className="w-[60vw] px-10 mx-auto">
+        <img src={img} alt="cancer support" />
+      </div>
 
       <div className="mx-20 bg-[rgba(255,255,255,0.8)] p-10 flex flex-col justify-evenly  relative top-0 right-0 left-0 bottom-0 ">
-        <h1 className="text-center text-4xl mb-8 h-[80px] border-black border flex items-center justify-center font-bold">
-          Qu'est-ce que la sophrologie ?
-        </h1>
+        <h1> Qu'est-ce que la sophrologie ? Qu'est-ce que la sophrologie ?</h1>
         <ul className="h-full  ">
           <li>
             C'est avant tout une technique simple, une méthode de développement

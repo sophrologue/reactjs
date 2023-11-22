@@ -1,21 +1,17 @@
-/* eslint-disable react/no-unescaped-entities */
-import backgroundImg from "../../assets/heart-large.jpeg";
-import { SessionCategories } from "../SessionCategories";
+import img from "../../assets/stress_at_work.jpg";
 
 export const StressSession = () => {
-  const background = {
-    backgroundImage: `url(${backgroundImg})`,
-    backgroundSize: "cover",
-    backgroundRepeat: "no-repeat",
-  };
   return (
-    <div className="flex flex-col" style={background}>
-      <SessionCategories />
+    // <div className="flex flex-col" style={background}>
 
+    <div>
+      {/* <SessionCategories /> */}
+      <h1 className="text-center text-6xl p-10"> Le stress en entreprise</h1>
+      <div className="w-[40vw] px-10 mx-auto">
+        <img src={img} alt="cancer support" />
+      </div>
+      `
       <div className="mx-20 bg-[rgba(255,255,255,0.8)] p-10 flex flex-col justify-evenly  relative top-0 right-0 left-0 bottom-0 ">
-        <h1 className="text-center text-4xl mb-8 h-[80px] border-black border flex items-center justify-center font-bold ">
-          Le stress en entreprise
-        </h1>
         <ul className="h-full  ">
           <li>
             Le stress professionnel peut avoir des conséquences sur la santé.
