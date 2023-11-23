@@ -7,11 +7,12 @@ export const Hero = () => {
       style={{ backgroundImage: `url(${heroImg})` }}
     >
       {/* <img src={heroImg} alt="hero img" className="w-full" /> */}
-      <div className="absolute top-5 left-0 right-0 text-center  text-white ">
+      <div className="absolute top-2 left-0 right-0 text-center  text-yellow-300 ">
         <p className="text-[120px] font-[700]"> Sophrologie</p>
-        <p className="text-[40px] text-gray-100">
+        <p className="text-[40px] text-black ">
           " J'ai décidé d'être heureux. C'est bon pour la santé ! "
         </p>
+        <p className="text-black font-[700] text-[20px]">- Voltaire</p>
       </div>
       {/* <h2 className="text-2xl text-center">Qui suis-je ?</h2>
       <img src={profileImg} alt="profile img" className="w-[120px]" />

@@ -3,11 +3,12 @@ import { Home } from "./pages/Home";
 import { Header } from "./components/Header";
 import { Footer } from "./components/Footer";
 import { AboutMe } from "./pages/AboutMe";
-import { Sophologie } from "./components/Sophologie";
+
 import { CancerSession } from "./pages/sessions/CancerSession";
 import { ChildSession } from "./pages/sessions/ChildSession";
 import { StressSession } from "./pages/sessions/StressSession";
 import { HyponysisSession } from "./pages/sessions/HyponysisSession";
+import { Sophologie } from "./pages/Sophologie";
 
 function App() {
   return (
