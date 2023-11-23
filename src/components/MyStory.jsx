@@ -1,8 +1,8 @@
 export const MyStory = () => {
   return (
     // <div className="bg-[rgba(255,255,255,0.9)] p-10 flex flex-col justify-evenly  relative top-0 right-0 left-0 bottom-0 ">
-    <div className=" p-10 ">
-      <ul className="flex flex-col gap-4 text-[18px] ">
+    <div className=" ">
+      <ul className="flex flex-col gap-4 text-[18px]">
         <li>
           Catherine Fabrici Sophrologue au MalesherboisDans une "autre vie",
           j'ai été enseignante : un métier merveilleux où, au fil des ans, j'ai
@@ -15,17 +15,6 @@ export const MyStory = () => {
           aux plus grands m'a également appris à cultiver patience,
           bienveillance et humilité.
         </li>
-        {/* <li>
-          Dans une "autre vie", j'ai été enseignante : un métier merveilleux où,
-          au fil des ans, j'ai pu aider des centaines d'enfants à acquérir leur
-          autonomie et à prendre leur envol. J'ai ainsi pu développer auprès de
-          plusieurs générations d'écoliers ma faculté à transmettre les savoirs,
-          ma capacité à aider l'autre à apprendre, connaître, ressentir et
-          analyser. Bref, des compétences pédagogiques pour aider les enfants à
-          trouver et exploiter le meilleur d'eux-même...Enseigner aux petits et
-          aux plus grands m'a également appris à cultiver patience,
-          bienveillance et humilité.
-        </li> */}
 
         <li>
           Puis, une épreuve personnelle m'a amenée à me questionner sur les

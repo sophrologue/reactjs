@@ -7,11 +7,11 @@ export const SessionCategories = () => {
         <button className="bg-emerald-500 text-white w-[200px] h-[50px] hover:brightness-110 duration-300">
           Sophrologie
         </button>
-      </Link>
-      <Link to="/sophrologie/pain_cancer">
-        <button className="bg-blue-400 bg- text-white w-[200px] h-[50px] border-x hover:brightness-110 duration-300">
-          Sophrologie douleurs et cancer
-        </button>
+        <Link to="/sophrologie/pain_cancer">
+          <button className="bg-blue-400 bg- text-white w-[200px] h-[50px] border-x hover:brightness-110 duration-300">
+            Sophrologie douleurs et cancer
+          </button>
+        </Link>
       </Link>
       <Link to="/sophrologie/child_adolescent">
         <button className="bg-emerald-500 text-white w-[200px] h-[50px] hover:brightness-110 duration-300">

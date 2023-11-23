@@ -9,6 +9,7 @@ import { ChildSession } from "./pages/sessions/ChildSession";
 import { StressSession } from "./pages/sessions/StressSession";
 import { HyponysisSession } from "./pages/sessions/HyponysisSession";
 import { Sophologie } from "./pages/Sophologie";
+import { PainSession } from "./pages/sessions/PainSession";
 
 function App() {
   return (
@@ -18,7 +19,8 @@ function App() {
         <Route element={<Home />} path="/" />
         <Route element={<AboutMe />} path="/about" />
         <Route element={<Sophologie />} path="/sophrologie" />
-        <Route element={<CancerSession />} path="/sophrologie/pain_cancer" />
+        <Route element={<CancerSession />} path="/sophrologie/cancer" />
+        <Route element={<PainSession />} path="/sophrologie/pain" />
         <Route
           element={<ChildSession />}
           path="/sophrologie/child_adolescent"

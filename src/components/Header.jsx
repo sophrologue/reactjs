@@ -3,7 +3,7 @@ import { SessionList } from "./SessionList";
 
 export const Header = () => {
   return (
-    <nav className=" flex flex-col items-center justify-evenly h-[7rem]  w-screen  drop-shadow-2xl  text-[22px]">
+    <nav className=" flex flex-col items-center justify-evenly h-[7rem]     drop-shadow-2xl  text-[22px]">
       <ul className="flex items-center gap-10 ">
         {/* Welcome */}
         <li className="hover:underline">

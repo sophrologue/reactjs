@@ -1,5 +1,3 @@
-/* eslint-disable react/no-unescaped-entities */
-import { FaCheck } from "react-icons/fa6";
 import img from "../assets/sophrologie.jpeg";
 
 export const Sophologie = () => {
@@ -13,7 +11,7 @@ export const Sophologie = () => {
       </div>
 
       <div className="mx-20 p-10 flex flex-col justify-evenly  relative top-0 right-0 left-0 bottom-0 ">
-        <ul className="flex flex-col gap-5   ">
+        <ul className="flex flex-col gap-4 text-[18px]  ">
           <li>
             C'est avant tout une technique simple, une méthode de développement
             personnel. Ce sont des exercices à base de respiration qui vont vous
