@@ -23,7 +23,7 @@ export const CancerSession = () => {
             malades.
           </li>
 
-          <li className="text-2xl font-[700] py-2 text-green-500">
+          <li className="text-2xl text-large font-[700] py-2">
             En aucun cas la sophrologie ne guérit le cancer, elle ne se
             substitue pas au protocole de soin, ni aux traitements médicaux.
           </li>
@@ -43,7 +43,7 @@ export const CancerSession = () => {
             établissement (Nantes, Paris etc ...)
           </li>
 
-          <li className="text-2xl font-[700] py-2 text-green-500">
+          <li className="text-2xl text-large font-[700] py-2">
             Atténuer les angoisses des traitements
           </li>
 
@@ -67,7 +67,7 @@ export const CancerSession = () => {
             maladie.
           </li>
 
-          <li className="text-2xl font-[700] py-2 text-green-500">
+          <li className="text-2xl text-large font-[700] py-2">
             Renforcer sa combativité
           </li>
 
@@ -84,7 +84,7 @@ export const CancerSession = () => {
             besoins de la personne et adaptée à sa maladie .
           </li>
 
-          <li className="text-3xl font-[700] py-2 text-center mt-4">
+          <li className="text-2xl text-large font-[700] py-2">
             J’ADAPTE LES SÉANCES AUX BESOINS DE MES CLIENTS.
           </li>
         </ul>
