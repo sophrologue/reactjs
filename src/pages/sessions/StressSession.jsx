@@ -1,4 +1,4 @@
-import img from "../../assets/stress_at_work.jpg";
+import img from "../../assets/stress_at_work-compress.jpg";
 
 export const StressSession = () => {
   return (

@@ -1,6 +1,7 @@
 /* eslint-disable react/no-unescaped-entities */
 import { Link } from "react-router-dom";
-import heroImg from "../assets/mountain-v-person.jpeg";
+// import heroImg from "../assets/mountain-v-person.jpeg";
+import heroImg from "../assets/mountain-v-person-compressed.jpeg";
 // import heroImg from "../assets/hypnosis.jpg";
 export const Hero = () => {
   return (

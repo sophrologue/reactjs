@@ -1,4 +1,4 @@
-import img from "../../assets/hypnosis.jpg";
+import img from "../../assets/hypnosis-compress.jpg";
 
 export const HyponysisSession = () => {
   // const background = {
@@ -145,7 +145,32 @@ export const HyponysisSession = () => {
           </li>
 
           <li>
-            Séance hypnose dans le cadre d'un suivi de sophrologie : 60 euros
+            Une séance d’hypnose débute systématiquement par un premier rdv. Il
+            est important pour vous, car il vous permet d’exprimer votre
+            problématique et votre objectif pour la consultation ; et également
+            pour moi, pour que je puisse ensuite trouver la meilleure technique
+            qui vous aidera.
+          </li>
+
+          <li>
+            Ensuite vient le travail d’hypnose à proprement parler. Je vous
+            accompagne et nous avons des échanges pour chercher en vous vos
+            propres solutions, car tout est déjà à l’intérieur de vous.
+          </li>
+          <li>
+            Une séance dure environ 1H /1H30 et se déroule dans un esprit de
+            bienveillance et de non-jugement.
+          </li>
+          <li>
+            J’allie les deux méthodes SOPHROLOGIE ET HYPNOSE HUMANISTE qui sont
+            toutes deux extrêmement complémentaires.
+          </li>
+
+          <li>Tarif séance hypnose</li>
+
+          <li>
+            Séance hypnose dans le cadre d'un suivi de sophrologie et d'hypnose
+            60 euros la séance
           </li>
           <li>Séance hypnose seule : 70 euros</li>
         </ul>

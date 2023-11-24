@@ -10,6 +10,8 @@ import { StressSession } from "./pages/sessions/StressSession";
 import { HyponysisSession } from "./pages/sessions/HyponysisSession";
 import { Sophologie } from "./pages/Sophologie";
 import { PainSession } from "./pages/sessions/PainSession";
+import { PricePage } from "./pages/PricePage";
+import { ContactPage } from "./pages/ContactPage";
 
 function App() {
   return (
@@ -19,6 +21,8 @@ function App() {
         <Route element={<Home />} path="/" />
         <Route element={<AboutMe />} path="/about" />
         <Route element={<Sophologie />} path="/sophrologie" />
+        <Route element={<PricePage />} path="/price" />
+        <Route element={<ContactPage />} path="/contact" />
         <Route element={<CancerSession />} path="/sophrologie/cancer" />
         <Route element={<PainSession />} path="/sophrologie/pain" />
         <Route

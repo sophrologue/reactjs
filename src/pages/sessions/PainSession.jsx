@@ -1,5 +1,5 @@
 /* eslint-disable react/no-unescaped-entities */
-import img from "../../assets/happiness.jpg";
+import img from "../../assets/happiness-compress.jpg";
 
 export const PainSession = () => {
   // const background = {

@@ -1,4 +1,4 @@
-import img from "../../assets/cancer.jpg";
+import img from "../../assets/cancer-compress.jpg";
 export const CancerSession = () => {
   // const background = {
   //   backgroundImage: `url(${backgroundImg})`,

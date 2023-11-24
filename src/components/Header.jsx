@@ -19,16 +19,16 @@ export const Header = () => {
         </li>
         <li className="hover:underline">
           {/* Prices */}
-          <Link>Tarifs</Link>
+          <Link to="/price">Tarifs</Link>
         </li>
         <li className="hover:underline">
           {/* Contact me */}
-          <Link>Me contacter</Link>
+          <Link to="/contact">Me contacter</Link>
         </li>
-        <li className="hover:underline">
-          {/* Legal Notice */}
-          <Link>Mentions légales</Link>
-        </li>
+        {/* <li className="hover:underline"> */}
+        {/* Legal Notice */}
+        {/* <Link>Mentions légales</Link> */}
+        {/* </li> */}
       </ul>
       <hr className="block w-full" />
       <SessionList />

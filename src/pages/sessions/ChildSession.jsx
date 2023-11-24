@@ -1,5 +1,5 @@
 /* eslint-disable react/no-unescaped-entities */
-import img from "../../assets/children.jpg";
+import img from "../../assets/children-compress.jpg";
 
 export const ChildSession = () => {
   return (

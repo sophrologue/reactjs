@@ -1,4 +1,4 @@
-import img from "../assets/sophrologie.jpeg";
+import img from "../assets/sophrologie-compress.jpeg";
 
 export const Sophologie = () => {
   return (
