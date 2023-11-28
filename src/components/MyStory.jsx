@@ -1,7 +1,7 @@
 export const MyStory = () => {
   return (
     // <div className="bg-[rgba(255,255,255,0.9)] p-10 flex flex-col justify-evenly  relative top-0 right-0 left-0 bottom-0 ">
-    <div className=" ">
+    <div className="p-6 bg-orange-50 my-6 rounded-xl">
       <ul className="flex flex-col gap-4 text-[18px]">
         <h1 className="font-bold text-5xl py-10 text-center   ">
           Qui je suis?

@@ -4,7 +4,7 @@ import health from "../assets/health500.png";
 import paths from "../assets/path-500.png";
 export const Card = () => {
   return (
-    <div className="flex flex-col justify-between gap-4 mb-10 ">
+    <div className="flex flex-col justify-between gap-4 my-10 bg-orange-50  rounded-xl p-6">
       <h1 className="font-bold text-4xl py-10 text-center   text-gray-700  rounded-xl ">
         AMELIORER SON QUOTIDIEN
       </h1>

@@ -4,7 +4,7 @@ import img from "../assets/hypnosis-compress.jpg";
 export const Hero = () => {
   return (
     <div
-      className="relative my-10     w-full h-[24rem] rounded-xl bg-cover bg-center  bg-no-repeat "
+      className="relative     w-full h-[24rem] rounded-xl bg-cover bg-center  bg-no-repeat "
       style={{ backgroundImage: `url(${img})` }}
     >
       <div

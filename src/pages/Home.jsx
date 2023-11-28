@@ -10,7 +10,7 @@ export const Home = () => {
 
       <Hero />
 
-      <hr className="mb-4 w-full border-t border-gray-300" />
+      {/* <hr className="mb-4 w-full border-t border-gray-300" /> */}
       <Career />
       <hr className="mb-4 w-full border-t border-gray-300" />
       <Card />

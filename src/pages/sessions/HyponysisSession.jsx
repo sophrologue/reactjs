@@ -100,10 +100,10 @@ export const HyponysisSession = () => {
             problématique et votre objectif pour la consultation. Je e pourrais
             ainsi trouver la meilleure technique pour vous aider.
           </li>
-          <li>
+          {/* <li>
             Une séance dure environ 1H /1H30 et se déroule dans un esprit de
             bienveillance et de non-jugement.
-          </li>
+          </li> */}
 
           <li className="text-2xl text-large font-[700] py-2">
             Quels bénéfices en attendre ?
@@ -166,13 +166,15 @@ export const HyponysisSession = () => {
             toutes deux extrêmement complémentaires.
           </li>
 
-          <li>Tarif séance hypnose</li>
-
-          <li>
-            Séance hypnose dans le cadre d'un suivi de sophrologie et d'hypnose
-            60 euros la séance
+          <li className="text-2xl text-large font-[700] py-2">
+            Tarif séance hypnose
           </li>
-          <li>Séance hypnose seule : 70 euros</li>
+
+          <li className="bg-yellow-200">
+            Séance hypnose dans le cadre d'un suivi de sophrologie et d'hypnose
+            65 euros la séance
+          </li>
+          <li className="bg-yellow-200">Séance hypnose seule : 70 euros</li>
         </ul>
       </div>
     </div>
