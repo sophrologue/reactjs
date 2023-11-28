@@ -5,16 +5,14 @@ export const Career = () => {
     <div className="flex flex-col justify-between my-10 p-6 bg-orange-100  rounded-xl">
       {/* <img src={profileImg} alt="profile img" className="h-[400px]   " /> */}
 
-      <div className=" flex lg:flex-row sm:flex-col sm:items-center  justify-center gap-10 p-6  ">
-        <div className="flex flex-col border-1 border-white rounded-xl sm:w-full sm:text-center   gap-8 justify-center w-[300px] p-8 text-4xl sm:text-6xl bg-orange-400 text-white">
+      <div className=" flex lg:flex-row sm:flex-col   justify-center gap-10 p-6  ">
+        <div className="flex flex-col border-1 border-white rounded-xl  text-4xl   gap-8 justify-center w-[300px] p-8  bg-orange-400 text-white">
           <span className="font-[700] ">Catherine Fabrici</span>
-          <span className="font=[400] text-[30px] sm:text-[40px]">
-            Sophrologue
-          </span>
+          <span className="font=[400] text-[30px]">Sophrologue</span>
         </div>
         <img src={profileImg} alt="profile img" className="w-[300px]    " />
         {/* Catherine FABRICI - SOPHROLOGUE */}
-        <ul className="flex flex-col  gap-6 p-6 text-[19px] sm:text-[26px]  rounded-xl">
+        <ul className="flex flex-col  gap-6 p-6 text-[19px]  rounded-xl">
           {/* <li>Enfant / Adolescent / Adulte / Entreprise</li> */}
           <li>Sophrologie pour : Enfant / Adolescent / Adulte / Entreprise</li>
           <li>
