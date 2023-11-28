@@ -2,7 +2,7 @@ import { Link } from "react-router-dom";
 
 export const SessionList = () => {
   return (
-    <ul className="flex items-center gap-10 text-[18px] text-gray-600">
+    <ul className="flex items-center  lg:gap-10 sm:gap-4 text-[18px] text-gray-600">
       <li className="hover:underline">
         <Link to="/sophrologie/pain"> Sophrologie et douleur</Link>
       </li>
