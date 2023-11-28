@@ -26,7 +26,7 @@ export const Sophologie = () => {
 
           <li className="font-[700]">
             En pratiquant vous deviendrez autonome et vous serez capable de
-            répondre à vos besoins concrètement dans votre vie quotidienne.A
+            répondre à vos besoins concrètement dans votre vie quotidienne. A
             chaque séances nous travaillons différentes capacités en vous.
           </li>
 
@@ -69,8 +69,8 @@ export const Sophologie = () => {
 
           <li>
             La sophrologie est une pédagogie positive, elle vous permettra de
-            retrouver le bonheur de vivre{" "}
-            <li className="font-[500]">avec légèreté</li> tout simplement.
+            retrouver le bonheur de vivre
+            <span className="font-[500]">avec légèreté</span> tout simplement.
           </li>
           <li>
             Elle peut être un complément d'une thérapie avec un psychologue ou

@@ -27,8 +27,8 @@ export const Card = () => {
             <img src={paths} alt="high five" className="w-[80px]" />
 
             <ul className="flex flex-col gap-2">
-              <li>Aux Examens, concours</li>
-              <li>Au permis de conduire, au permis moto…</li>
+              <li> Examens, concours</li>
+              <li> Permis de conduire, au permis moto…</li>
               <li>A travers une scolarité difficile</li>
               <li>Pour accompagner le sportif, l’artiste…</li>
             </ul>
