@@ -15,7 +15,7 @@ export const Hero = () => {
           {" "}
           Sophrologie
         </Link>
-        <p className="xsm:text-[14px] md:text-[18px]">
+        <p className="xsm:text-[12px] md:text-[18px]">
           {" "}
           " J'ai décidé d'être heureux. "C'est bon pour la santé ! " - Voltaire
         </p>
