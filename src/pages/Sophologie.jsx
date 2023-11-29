@@ -6,11 +6,11 @@ export const Sophologie = () => {
       <h1 className="text-4xl text-center p-10 font-[700]">
         Qu'est-ce que la sophrologie ?
       </h1>
-      <div className="w-[40vw] px-10 mx-auto">
+      <div className=" xsm:w-[100vw] md:w-[40vw] px-10 sn mx-auto">
         <img src={img} alt="cancer support" />
       </div>
 
-      <div className="mx-20 p-10 flex flex-col justify-evenly  relative top-0 right-0 left-0 bottom-0 ">
+      <div className="xsm:mx-2 md:mx-20 xsm:p-4 md:p-10 flex flex-col justify-evenly   ">
         <div className="flex flex-col gap-4 text-[18px]  ">
           <p>
             C'est avant tout une technique simple, une méthode de développement

@@ -2,21 +2,14 @@
 import img from "../../assets/happiness-compress.jpg";
 
 export const PainSession = () => {
-  // const background = {
-  //   backgroundImage: `url(${backgroundImg})`,
-  //   backgroundSize: "cover",
-  //   backgroundRepeat: "no-repeat",
-  // };
   return (
     <div>
-      {/* <div className="flex flex-col" style={background}> */}
-      {/* <SessionCategories /> */}
       <h1 className="text-center text-6xl p-10">Sophrologie et douleur</h1>
-      <div className="w-[40vw] px-10 mx-auto">
+      <div className=" xsm:w-[100vw] md:w-[40vw] px-10 sn mx-auto">
         <img src={img} alt="cancer support" />
       </div>
 
-      <div className="mx-20 bg-[rgba(255,255,255,0.8)] p-10 flex flex-col justify-evenly  relative top-0 right-0 left-0 bottom-0 ">
+      <div className="xsm:mx-2 md:mx-20 xsm:p-4 md:p-10 flex flex-col justify-evenly   ">
         <ul className="flex flex-col gap-4 text-[18px]  ">
           <li>
             La sophrologie va aider les malades à remettre du confort de vie

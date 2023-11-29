@@ -1,7 +1,8 @@
 export const ContactPage = () => {
   return (
-    <div className=" flex flex-col w-screen max-w-[70rem] mt-10 h-screen  mx-auto  ">
-      <ul className="flex flex-col gap-4 text-[18px]  ">
+    <div className=" flex flex-col my-5 w-screen xsm:px-10 h-screen max-w-[70rem] mx-auto">
+      <h1 className="text-4xl my-5 font-[700]">Me Contacter</h1>
+      <ul className="flex flex-col gap-4 xsm:text-[14px] sm:text-[18px]  ">
         <li>
           Je reçois à mon cabinet du lundi au vendredi de 10h00 à 20h00 sauf le
           jeudi sur rendez-vous uniquement.
