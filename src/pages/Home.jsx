@@ -1,9 +1,14 @@
+import { useEffect } from "react";
 import { Card } from "../components/Card";
 import { Career } from "../components/Career";
 import { Hero } from "../components/Hero";
 import { MyStory } from "../components/MyStory";
 
 export const Home = () => {
+  // const accountId = import.meta.env.VITE_APP_BUSINESS_ID;
+  // const locationId = import.meta.env.VITE_APP_LOCATION_ID;
+  // const apiKey = import.meta.env.VITE_APP_GOOGLE_API_KEY;
+
   return (
     <div className=" flex flex-col w-screen max-w-[70rem]  mx-auto  ">
       {/* <h1>Sophrologie</h1> */}
