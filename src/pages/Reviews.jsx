@@ -2,6 +2,24 @@ export const Reviews = () => {
   const reviews = [
     {
       id: 1,
+      name: "Yoann Bruneaux",
+      date: "02.2024",
+      rating: "5/5",
+      comment: `Très bonne sophrologue, elle m'a aidé à gérer mon stress.
+      L'hypnose a très bien marché sur moi et cela a été très efficace.`,
+    },
+    {
+      id: 2,
+      name: "Peggy Rgl",
+      date: "02.2024",
+      rating: "5/5",
+      comment: `Consultation hypnose avec Madame Fabrici afin de me libérer de grosses angoisses ancrées depuis très longtemps en moi, ainsi que de l’agoraphobie qui me prive de croquer la vie à pleine dent!
+      Au bout de 2 séances, mes angoisses se sont dissipées mais mon travail continu sur du positif.
+      En une séance pour l’agoraphobie, j’ai pu profiter d’un petit shopping.
+      Merci à votre professionnalisme, à votre écoute et votre bienveillance. Ravie de vous avoir contacter!`,
+    },
+    {
+      id: 3,
       name: "Catherine BOURGEOIS",
       rating: "5/5",
       date: "05.2023",
@@ -10,21 +28,15 @@ export const Reviews = () => {
         J’ai fait toute mes séances en visio (avec skype), et cela n’a absolument pas été un handicap dans le déroulement du protocole.`,
     },
     {
-      id: 2,
+      id: 4,
       name: "Marie Prost",
       rating: "5/5",
       date: "05.2023",
       comment: `J'ai consulté Mme FABRICI afin de m'aider dans la gestion de mes émotions et je ne regrette pas. Mme FABRICI prend le temps d'expliquer le déroulé de chaque séance. C'est une personne très douce et qui sait mettre en confiance`,
     },
+
     {
-      id: 3,
-      name: "Marie Prost",
-      rating: "5/5",
-      date: "05.2023",
-      comment: `J'ai consulté Mme FABRICI afin de m'aider dans la gestion de mes émotions et je ne regrette pas. Mme FABRICI prend le temps d'expliquer le déroulé de chaque séance. C'est une personne très douce et qui sait mettre en confiance`,
-    },
-    {
-      id: 3,
+      id: 5,
       name: "Martine Valem",
       date: "10.2022",
       rating: "5/5",
@@ -32,7 +44,7 @@ export const Reviews = () => {
         "Très mal physiquement et psychologiquement à mon 1e rendez-vous fin avril, j'ai vraiment accepté le passé. J'ai pu poser mon \"sac à dos\" devenu léger au fil des séances. Et je découvre, tel un papillon, ma nouvelle vie sans l'addiction qui me tuait. Maintenant, mon entourage remarque ma bonne mine et mon entrain. Je vous recommande vivement Catherine.",
     },
     {
-      id: 4,
+      id: 6,
       name: "Fernanda Da Fonseca",
       date: "10.2021",
       rating: "5/5",
@@ -40,7 +52,7 @@ export const Reviews = () => {
         "Mme Fabrici est très agréable et très à l'écoute. Je la recommande à 100% pour ses séances de sophrologie de qualité, son écoute et sa bienveillance. Au fur et à mesure des séances, j'ai appris à mieux gérer mon anxiété et mon stress. J'ai appris à me détendre physiquement et mentalement. Merci pour votre patience et votre écoute.",
     },
     {
-      id: 5,
+      id: 7,
       name: "Nathalie C",
       date: "04.2022",
       rating: "5/5",
@@ -48,7 +60,7 @@ export const Reviews = () => {
         "Tout au long des séances de sophrologie, Mme Fabrici m'a permis d'améliorer ma posture, d'acquérir des techniques de respiration, de visualisation et de pensées positives. Aujourd'hui je mets en pratique ce savoir afin de vivre pleinement mon bien-être. Une très belle rencontre, merci à vous avec Mme Fabrici.",
     },
     {
-      id: 6,
+      id: 8,
       name: "Vanessa C",
       date: "01.2020",
       rating: "5/5",
@@ -56,7 +68,7 @@ export const Reviews = () => {
         "Un grand merci pour l'aide apportée à mon fils. 7 séances ont permis qu'il se sente vraiment mieux dans sa tête et son corps. Des exercices très bien expliqués, qu'il peut reproduire à la maison très facilement. Je recommande en toute confiance Mme Fabrici Catherine. Si autre besoin familial nous la solliciterons à nouveau. MERCI",
     },
     {
-      id: 7,
+      id: 9,
       name: "Béchu Audrey",
       date: "11.2021",
       rating: "5/5",
@@ -73,7 +85,7 @@ export const Reviews = () => {
         Très bien les séances en visio washapp.`,
     },
     {
-      id: 10,
+      id: 11,
       name: "Nadine PORRETTA",
       date: "11.2021",
       rating: "5/5",
@@ -81,7 +93,7 @@ export const Reviews = () => {
         "Je tiens à remercier Catherine pour les exercices de sophrologie à distance (ordinateur). J’insiste fortement à pratiquer les exercices en téléconférence surtout pour éviter le déplacement et cela fonctionne très bien. Grâce à Catherine j’ai une confiance en moi qui c’est installée. Les exercices m’aident, je pratique souvent et cela me fait voir la vie d’une autre façon beaucoup plus agréable même en cas de soucis. Aujourd’hui je fais des examens de santé en étant plus zen. Je vous invite à la contacter en cas de problème, c’est une personne formidable et qui va vous aider. Nadine",
     },
     {
-      id: 11,
+      id: 12,
       name: "Thierry Coutaud",
       date: "11.2020",
       rating: "5/5",
@@ -89,21 +101,21 @@ export const Reviews = () => {
         "Une prise en charge très professionnelle avec des propositions adaptées aux difficultés de notre fille Gwenaelle. Première expérience réussie en visio conférence pendant le confinement. Les exercices et méthodes enseignées sont applicables rapidement à la maison (envoi par mail des exercices). Malgré la distance physique ma fille a fait des énormes progrès. Je recommande à tous. Gwenaelle a pris confiance en elle en quelques séances. Merci à vous pour votre écoute.",
     },
     {
-      id: 12,
+      id: 13,
       name: "Aurore Jagot",
       date: "08.2023",
       rating: "5/5",
       comment: `Je suis arrivée assez septique en mai dans le cabinet de Catherine FABRICI, ne connaissant pas très bien la sophrologie. Je viens de terminer mon programme, et je suis ravie du parcours effectué. J’ai appris à mieux connaître mon corps, positiver, gérer mes émotions. Catherine est à l’écoute, disponible, rassurante, compétente. Cela a été pour moi une belle expérience positive. Je recommande fortement.`,
     },
     {
-      id: 13,
+      id: 14,
       name: "Mathilde BEAUPERE",
       date: "03.2020",
       rating: "5/5",
       comment: `Je recommande très sincèrement Catherine pour le travail de fond. Pour la forme, j'ai eu de la chance de pratiquer à distance pendant le 1er confinement. Habitant à plusieurs centaines de km, les séances se sont déroulées avec le téléphone portable ou l'ordinateur. Simple, sans matériel particulier, les séances se sont faites comme en face à face.`,
     },
     {
-      id: 14,
+      id: 15,
       name: "sakina chr",
       date: "04.2022",
       rating: "5/5",
@@ -112,7 +124,7 @@ export const Reviews = () => {
       Des techniques et méthodes à appliquer au quotidien en pour une meilleure qualité de vie`,
     },
     {
-      id: 14,
+      id: 161,
       name: "Bastien Bastien",
       date: "2019",
       rating: "5/5",
@@ -121,7 +133,7 @@ export const Reviews = () => {
       J'y retournerai sans doute prochainement pour approfondir mes connaissances "sophrologique"`,
     },
     {
-      id: 15,
+      id: 17,
       name: "stephanie sevaux",
       date: "2019",
       rating: "5/5",
@@ -131,7 +143,7 @@ export const Reviews = () => {
       Je recommande vivement cette expérience.`,
     },
     {
-      id: 16,
+      id: 18,
       name: "Julie Da Silva",
       date: "11.2019",
       rating: "5/5",
@@ -140,7 +152,7 @@ export const Reviews = () => {
       Jai commence en fin janvier 2019 et cela a duré jusqu'en avril si je me souviens bien. Besoin de prendre soin de soi, de relativiser, ou d'autres je vous invite à la contacter`,
     },
     {
-      id: 17,
+      id: 19,
       name: "angélique Lault",
       date: "2019",
       rating: "5/5",
@@ -149,7 +161,7 @@ export const Reviews = () => {
       Je recommande Mme Fabricie les yeux fermés pour ses qualités professionnelles et humaines.`,
     },
     {
-      id: 18,
+      id: 20,
       name: "Murielle Bertheau",
       date: "10.2019",
       rating: "5/5",
@@ -157,42 +169,42 @@ export const Reviews = () => {
       Un grand merci. Allez y en toute confiance`,
     },
     {
-      id: 19,
+      id: 21,
       name: "Elisabeth Kilo",
       date: "02.2022",
       rating: "5/5",
       comment: `Merci de votre aide grace à votre adaptation , vos exercices et surtout votre écoute je me sens beaucoup plus sereine. Je n hésiterai pas a vous recommandé`,
     },
     {
-      id: 20,
+      id: 22,
       name: "Jennifer Tillit",
       date: "02.2021",
       rating: "5/5",
       comment: `Très bonne expérience avec cette femme qui est passionné par son métier et sa se ressent on se sent plus léger et détendue grâce à son travail je la conseille fortement`,
     },
     {
-      id: 21,
+      id: 23,
       name: "Sandrine FERNAND",
       date: "04.2021",
       rating: "5/5",
       comment: `Je recommande vivement Mme Fabrici pour la qualité de son travail .C'est une personne charmante et très compétente ,notamment avec les enfants .`,
     },
     {
-      id: 22,
+      id: 24,
       name: "Matthieu Paris",
       date: "06.2021",
       rating: "5/5",
       comment: `Je recommande Mme Fabricie  c'est une personne qui et passionner par son métier , qui est trés compétante et trés appliquer dans ce qu'elle fait et j'en garde une trés bonne expérience .`,
     },
     {
-      id: 23,
+      id: 25,
       name: "Jennifer DIOT",
       date: "2019",
       rating: "5/5",
       comment: `Très bonne écoute. Très bon relationnel avec les enfants. Très bonne aide pour la confiance en soi. Je recommande les yeux fermés`,
     },
     {
-      id: 24,
+      id: 26,
       name: "Arnaud DIDIER",
       date: "2019",
       rating: "3/5",
@@ -200,7 +212,7 @@ export const Reviews = () => {
       des exercices adaptés pour m'aider à me concentrer et au bien être de ma vie quotidienne`,
     },
     {
-      id: 25,
+      id: 27,
       name: "Anne Marchand",
       date: "10.2020",
       rating: "5/5",
@@ -208,7 +220,7 @@ export const Reviews = () => {
       Visited in October 2020`,
     },
     {
-      id: 26,
+      id: 28,
       name: "hafou jouanneau",
       date: "05.2019",
       rating: "5/5",
