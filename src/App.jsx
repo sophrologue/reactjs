@@ -13,6 +13,7 @@ import { PainSession } from "./pages/sessions/PainSession";
 import { PricePage } from "./pages/PricePage";
 import { ContactPage } from "./pages/ContactPage";
 import { Reviews } from "./pages/Reviews";
+import { TheSocietyPage } from "./pages/TheSocietyPage";
 
 function App() {
   return (
@@ -25,6 +26,7 @@ function App() {
         <Route element={<PricePage />} path="/price" />
         <Route element={<Reviews />} path="/reviews" />
         <Route element={<ContactPage />} path="/contact" />
+        <Route element={<TheSocietyPage />} path="/society" />
         <Route element={<CancerSession />} path="/sophrologie/cancer" />
         <Route element={<PainSession />} path="/sophrologie/pain" />
         <Route

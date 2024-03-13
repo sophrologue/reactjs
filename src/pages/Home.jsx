@@ -1,4 +1,3 @@
-import { useEffect } from "react";
 import { Card } from "../components/Card";
 import { Career } from "../components/Career";
 import { Hero } from "../components/Hero";
@@ -10,7 +9,7 @@ export const Home = () => {
   // const apiKey = import.meta.env.VITE_APP_GOOGLE_API_KEY;
 
   return (
-    <div className=" flex flex-col w-screen max-w-[70rem]  mx-auto  ">
+    <div className=" flex flex-col w-screen md:max-w-[70rem] xsm:w-full  mx-auto  ">
       {/* <h1>Sophrologie</h1> */}
 
       <Hero />
