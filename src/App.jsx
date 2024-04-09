@@ -14,7 +14,6 @@ import { PricePage } from "./pages/PricePage";
 import { ContactPage } from "./pages/ContactPage";
 import { Reviews } from "./pages/Reviews";
 import { TheSocietyPage } from "./pages/TheSocietyPage";
-import { MailPageTest } from "./pages/MailPageTest";
 
 function App() {
   return (
@@ -30,7 +29,6 @@ function App() {
         <Route element={<TheSocietyPage />} path="/society" />
         <Route element={<CancerSession />} path="/sophrologie/cancer" />
         <Route element={<PainSession />} path="/sophrologie/pain" />
-        <Route element={<MailPageTest />} path="/mail" />
         <Route
           element={<ChildSession />}
           path="/sophrologie/child_adolescent"
