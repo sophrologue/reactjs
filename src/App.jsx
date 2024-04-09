@@ -28,7 +28,7 @@ function App() {
         <Route element={<ContactPage />} path="/contact" />
         <Route element={<TheSocietyPage />} path="/society" />
         <Route element={<CancerSession />} path="/sophrologie/cancer" />
-        <Route element={<PainSession />} path="/sophrologie/pain" />
+        {/* <Route element={<PainSession />} path="/sophrologie/pain" /> */}
         <Route
           element={<ChildSession />}
           path="/sophrologie/child_adolescent"
