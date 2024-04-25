@@ -1,12 +1,11 @@
 export const MyStory = () => {
   return (
-    // <div className="bg-[rgba(255,255,255,0.9)] p-10 flex flex-col justify-evenly  relative top-0 right-0 left-0 bottom-0 ">
-    <div className="md:p-8 xsm:p-10  bg-orange-50 my-6 rounded-xl">
-      <ul className="flex flex-col gap-4 md:text-[18px] xsm:text-[15px]">
-        <h1 className="font-bold text-5xl sm:text-6xl py-10 text-center   ">
+    <div className="md:p-8 xsm:p-10  bg-green-600 text-white  xsm:rounded-none md:rounded-xl py-12 px-4    max-w-[1200px] w-full mx-auto">
+      <div className="flex flex-col gap-4 md:text-[21px] xsm:text-[19px]">
+        <h1 className="font-bold text-5xl sm:text-6xl text-center  py-6  ">
           Qui je suis?
         </h1>
-        <li>
+        <p>
           j'ai été enseignante : un métier merveilleux où, au fil des ans, j'ai
           pu aider des centaines d'enfants à acquérir leur autonomie et à
           prendre leur envol. J'ai ainsi pu développer auprès de plusieurs
@@ -16,9 +15,9 @@ export const MyStory = () => {
           trouver et exploiter le meilleur d'eux-même...Enseigner aux petits et
           aux plus grands m'a également appris à cultiver patience,
           bienveillance et humilité.
-        </li>
+        </p>
 
-        <li>
+        <p>
           Puis, une épreuve personnelle m'a amenée à me questionner sur les
           nouveaux chapitres que je voulais ajouter à mon existence. C'est à ce
           moment-là, que j'ai découvert la sophrologie, une{" "}
@@ -26,47 +25,47 @@ export const MyStory = () => {
             discipline qui m'a aidée à me reconnecter avec moi-même, à prendre
             conscience de l'urgence de prendre soin de moi.
           </strong>
-        </li>
+        </p>
 
-        <li>
+        <p>
           <strong>
             Le message était clair ; "Prends soin de toi et apprends aux autres
             à prendre soin d'eux. "
           </strong>
-        </li>
+        </p>
 
-        <li>
+        <p>
           J'avais besoin à mon tour de faire découvrir et transmettre au plus
           grand nombre tous les bienfaits quotidiens de cette pédagogie, de cet
           apprentissage dynamique du bien-être.
-        </li>
+        </p>
 
-        <li>
+        <p>
           C'est dans cette suite logique, que j'ai quitté sans nostalgie mais
           avec fierté les cours de récré, les cartables, pour devenir à mon tour
           sophrologue.
-        </li>
+        </p>
 
-        <li>
+        <p>
           Je suis diplômée du Centre Evolution{" "}
           <strong> Formation (Montereau)</strong> .
-        </li>
-        <li>
+        </p>
+        <p>
           Membre de la Société Française de Sophrologie, je respecte le code de
           déontologie de la profession qui vous assure confidentialité et
           intégrité.
-        </li>
-        <li>
+        </p>
+        <p>
           Vous ressentez le besoin d'améliorer votre quotidien de manière
           positive, de prendre du recul, de gagner en qualité de vie personnelle
           et professionnelle ?
-        </li>
-        <li>
+        </p>
+        <p>
           Je vous propose un accompagnement personnalisé en sophrologie afin de
           créer un nouvel état de bien-être mental et corporel.
-        </li>
-        <li>Contactez-moi pour prendre rendez-vous.</li>
-      </ul>
+        </p>
+        <p>Contactez-moi pour prendre rendez-vous.</p>
+      </div>
     </div>
   );
 };
