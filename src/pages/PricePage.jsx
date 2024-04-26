@@ -61,11 +61,11 @@ export const PricePage = () => {
           <img src={groupIcon} alt="" className="w-30" />
           <p className="rounded-lg w-full">
             SEANCE HYPNOSE / 70 euros 2 séances à prévoir au minimum Dans le
-            cadre d'un programme combiné la séance sera à 65 euros.
+            cadre d'un programme combiné la séance sera à 60 euros.
           </p>
           <p className="xsm:hidden md:block">|</p>
           <p className="font-bold text-[22px]  xsm:w-full md:w-40">
-            65~70 euros
+            60~70 euros
           </p>
         </div>
 
