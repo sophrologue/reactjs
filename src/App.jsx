@@ -14,6 +14,7 @@ import { PricePage } from "./pages/PricePage";
 import { ContactPage } from "./pages/ContactPage";
 import { Reviews } from "./pages/Reviews";
 import { TheSocietyPage } from "./pages/TheSocietyPage";
+import { ScrollToTop } from "./components/ScrollToTop";
 
 function App() {
   return (
@@ -37,6 +38,7 @@ function App() {
         <Route element={<HyponysisSession />} path="/sophrologie/hyponysis" />
       </Routes>
       <Footer />
+      <ScrollToTop />
     </>
   );
 }
