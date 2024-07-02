@@ -2,22 +2,33 @@
 // import society_logo from "../assets/thesocietyimg.jpeg";
 import { useInView } from "react-intersection-observer";
 import wallpaper from "../assets/images/green-hero.jpg";
+import LazyLoad from "react-lazyload";
+import { useEffect, useState } from "react";
 export const Hero = () => {
   const { inView, ref } = useInView({ threshold: 0.5 });
+  const [isBackgroundLoaded, setIsBackgroundLoaded] = useState(false);
 
   const transitionStyle = {
     transition: "opacity 2000ms",
     opacity: inView ? 1 : 0,
   };
-  const backgroundStyle = {
-    backgroundImage: `url(${wallpaper})`,
-  };
+  const backgroundStyle = isBackgroundLoaded
+    ? { backgroundImage: `url(${wallpaper})` }
+    : {};
+
+  useEffect(() => {
+    if (inView) {
+      setIsBackgroundLoaded(true);
+    }
+  }, [inView]);
   return (
     <aside className="  relative ">
-      <div
-        className=" brightness-75 h-[40rem] bg-cover bg-center bg-no-repeat"
-        style={backgroundStyle}
-      ></div>
+      <LazyLoad once>
+        <div
+          className="brightness-75 h-[40rem] bg-cover bg-center bg-no-repeat"
+          style={backgroundStyle}
+        ></div>
+      </LazyLoad>
       <div
         ref={ref}
         style={transitionStyle}
