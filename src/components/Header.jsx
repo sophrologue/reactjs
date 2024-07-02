@@ -1,6 +1,6 @@
 import { Link, useLocation } from "react-router-dom";
 import mobile_list_icon from "../assets/svg/list-icon.svg";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 
 const navData = [
   { path: "/", title: "Accueil" },
@@ -30,6 +30,10 @@ export const Header = () => {
   const handleCloseTab = () => {
     setViewTabs(false);
   };
+
+  console.log(pathname);
+
+  useEffect(() => {}, []);
   return (
     <>
       {/* web only */}
@@ -125,28 +129,3 @@ export const Header = () => {
     </>
   );
 };
-
-// <nav className=" flex flex-col items-center gap-4 py-2 sm:h-[7rem]     drop-shadow-2xl   sm:text-2xl xsm:text-md xsm:h-[12rem] ">
-//   <ul className="flex items-center xsm:gap-2  sm:gap-6 md:gap-10 ">
-//     <li className="hover:underline">
-//       <Link to="/">Accueil</Link>
-//     </li>
-
-//     <li className="hover:underline ">
-//       <Link to="/sophrologie">Sophrologie</Link>
-//     </li>
-//     <li className="hover:underline">
-//       <Link to="/price">Tarifs</Link>
-//     </li>
-//     <li className="hover:underline">
-//       <Link to="/reviews">Avis</Link>
-//     </li>
-//     <li className="hover:underline">
-//       <Link to="/contact">Me contacter</Link>
-//     </li>
-//     <li className="hover:underline">
-//       <Link to="/society">La Société</Link>
-//     </li>
-//   </ul>
-//   <SessionList />
-// </nav>
