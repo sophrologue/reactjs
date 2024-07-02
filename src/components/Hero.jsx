@@ -22,14 +22,18 @@ export const Hero = () => {
     }
   }, [inView]);
   return (
-    <aside ref={ref} style={transitionStyle} className="  relative ">
+    <aside className="  relative ">
       <LazyLoad once>
         <div
           className="brightness-75 h-[40rem] bg-cover bg-center bg-no-repeat"
           style={backgroundStyle}
         ></div>
       </LazyLoad>
-      <div className="px-2 text-white  absolute top-0 right-0  left-0 bottom-0 flex flex-col items-center justify-center">
+      <div
+        ref={ref}
+        style={transitionStyle}
+        className="px-2 text-white  absolute top-0 right-0  left-0 bottom-0 flex flex-col items-center justify-center"
+      >
         <h1 className="xsm:text-[42px] lg:text-[62px] ">Sophrologie</h1>
         <p className="xsm:text-[16px] lg:text-[20px] text-center">
           {" "}
