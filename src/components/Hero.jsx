@@ -1,7 +1,7 @@
 /* eslint-disable react/no-unescaped-entities */
 // import society_logo from "../assets/thesocietyimg.jpeg";
 import { useInView } from "react-intersection-observer";
-import wallpaper from "../assets/images/green-hero.jpg";
+import wallpaper from "../assets/svg/green-hero-compressed.svg";
 import LazyLoad from "react-lazyload";
 import { useEffect, useState } from "react";
 export const Hero = () => {
