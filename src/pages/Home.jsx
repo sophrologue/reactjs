@@ -1,23 +1,28 @@
-import { Card } from "../components/Card";
-import { Career } from "../components/Career";
 import { Hero } from "../components/Hero";
-import { MyStory } from "../components/MyStory";
 import societyImg from "../assets/thesocietyimg.jpeg";
+
+import SophrologieFactsContainer from "../components/SophrologieFactsContainer";
+import AboutMeContainer from "../components/AboutMeContainer";
 
 export const Home = () => {
   return (
-    <div className=" flex flex-col   xsm:w-full md:gap-10 xsm:gap-0    ">
-      <Hero />
-      <div>
-        <div className="flex justify-center xsm:p-6 md:p-0">
-          <img src={societyImg} alt="society" />
+    <main style={{ scrollbarWidth: "thin" }}>
+      <>
+        <Hero />
+        <div className="xsm:hidden md:block  ">
+          <div className="h-[200px] flex items-center justify-center">
+            <img src={societyImg} alt="society logo" className=" mx-auto" />
+          </div>
         </div>
-      </div>
+        <AboutMeContainer />
 
-      <Card />
-
-      <Career />
-      <MyStory />
-    </div>
+        <section className="h-[201px] text-center bg-white flex items-center justify-center">
+          <h1 className=" xsm:text-[32px] md:text-[48px] text-[#555] font-bold">
+            AMELIORER SON QUOTIDIEN
+          </h1>
+        </section>
+        <SophrologieFactsContainer />
+      </>
+    </main>
   );
 };
