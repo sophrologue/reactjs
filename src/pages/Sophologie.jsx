@@ -3,14 +3,16 @@ import benefitWallpaper from "../assets/benefit_wallpaper.jpeg";
 
 export const Sophologie = () => {
   return (
-    <div className="max-w-[1200px] w-full mx-auto flex flex-col gap-10 md:p-6 xsm:py-20 xsm:px-6  ">
-      <div className=" mx-auto">
+    <div className="max-w-[1250px] w-full mx-auto flex flex-col gap-10 md:p-6 xsm:py-20 xsm:px-6  ">
+      {/* <div className=" mx-auto">
         <img src={img} alt="cancer support" className="rounded-full" />
-      </div>
-      <h1 className="xsm:text-[24px] md:text-[48px] text-center font-bold">
+      </div> */}
+      {/* <h1 className="xsm:text-[24px] md:text-[48px] text-center font-bold"> */}
+      <h1 className="xsm:text-primary-title-mobile md:text-primary-title-tablet lg:text-primary-title text-center font-bold">
         Qu'est-ce que la sophrologie ?
       </h1>
-      <div className="flex flex-col gap-4 xsm:text-[18px] md:text-[24px]  ">
+      {/* <div className="flex flex-col gap-4 xsm:text-[18px] md:text-[24px]  "> */}
+      <div className="flex flex-col gap-4 xsm:text-primary-body-mobile md:text-primary-body-tablet lg:text-primary-body ">
         <p>
           C'est avant tout une technique simple, une méthode de développement
           personnel. Ce sont des exercices à base de respiration qui vont vous

@@ -30,7 +30,7 @@ export default function SophrologieFactsContainer() {
         className="opacity-85 bg-white flex items-center  gap-14  border border-gray-20 rounded-2xl shadow-xl xsm:w-full lg:w-[1200px] h-[300px] p-6"
       >
         <img src={daily} alt="" className="xsm:size-20 md:size-60 " />
-        <ul className="xsm:text-sm md:text-[24px] xsm:space-y-0 md:space-y-3 lg:space-y-6  list-disc	">
+        <ul className="xsm:text-primary-body-mobile md:text-primary-body-tablet lg:text-primary-body xsm:space-y-0 md:space-y-3 lg:space-y-6  list-disc	">
           <li>
             Gestion du stress, de l’anxiété, des émotions, <br />
             Burn-out, Concentration, Mémoire
@@ -45,7 +45,7 @@ export default function SophrologieFactsContainer() {
         className="opacity-85 bg-white flex items-center gap-14  border border-gray-20 rounded-2xl shadow-xl xsm:w-full lg:w-[1200px] h-[300px] p-6"
       >
         <img src={paths} alt="" className="xsm:size-20 md:size-60 " />
-        <ul className="xsm:text-sm md:text-[24px] xsm:space-y-0 md:space-y-3 lg:space-y-6  list-disc	">
+        <ul className="xsm:text-primary-body-mobile md:text-primary-body-tablet lg:text-primary-body xsm:space-y-0 md:space-y-3 lg:space-y-6  list-disc	">
           <li> Examens, concours</li>
           <li> Permis de conduire, au permis moto…</li>
           <li>A travers une scolarité difficile</li>
@@ -57,7 +57,7 @@ export default function SophrologieFactsContainer() {
         className="opacity-85 bg-white flex items-center gap-14  border border-gray-20 rounded-2xl shadow-xl xsm:w-full lg:w-[1200px] h-[300px] p-6"
       >
         <img src={health} alt="" className="xsm:size-20 md:size-60 " />
-        <ul className="xsm:text-sm md:text-[24px] xsm:space-y-0 md:space-y-3 lg:space-y-6  list-disc	">
+        <ul className="xsm:text-primary-body-mobile md:text-primary-body-tablet lg:text-primary-body xsm:space-y-0 md:space-y-3 lg:space-y-6  list-disc	">
           <li>A travers la maladie, fibromyalgie, cancer…</li>
           <li>Gestion de la douleur, douleurs post-opératoire …</li>
           <li>Gestion des phobies, des peurs, des colères</li>
@@ -70,7 +70,7 @@ export default function SophrologieFactsContainer() {
         className="opacity-85 bg-white flex items-center gap-14  border border-gray-20 rounded-2xl shadow-xl xsm:w-full lg:w-[1200px] h-[300px] p-6"
       >
         <img src={etc} alt="" className="xsm:size-20 md:size-60 " />
-        <ul className="xsm:text-sm md:text-[24px] xsm:space-y-0 md:space-y-3 lg:space-y-6  list-disc	">
+        <ul className="xsm:text-primary-body-mobile md:text-primary-body-tablet lg:text-primary-body xsm:space-y-0 md:space-y-3 lg:space-y-6  list-disc	">
           <li>Futurs parents</li>
           <li>Départ à la retraite, déménagement</li>
           <li>Projets professionnels</li>

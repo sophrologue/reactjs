@@ -38,7 +38,7 @@ export const Header = () => {
     <>
       {/* web only */}
       <nav className="  xsm:hidden md:block h-[120px]  py-2 px-4 flex items-center">
-        <div className="h-full max-w-[1250px] mx-auto flex items-center justify-between md:text-lg lg:text-3xl text-black ">
+        <div className="h-full max-w-[1250px] mx-auto flex items-center justify-between  text-black ">
           <div className="flex flex-col justify-center  h-full  gap-2">
             <div className="flex items-center gap-4">
               {navData.map((nav) => {
@@ -47,7 +47,7 @@ export const Header = () => {
                     style={{
                       color: pathname === nav.path ? "#085f00" : "#000",
                     }}
-                    className="transition ease-in-out font-bold hover:cursor-pointer"
+                    className="transition ease-in-out font-bold hover:cursor-pointe  md:text-primary-nav-tablet  lg:text-primary-nav-title"
                     key={nav.path}
                     to={nav.path}
                   >
