@@ -1,5 +1,5 @@
 import { useInView } from "react-intersection-observer";
-import therapy from "../assets/svg/therapy-image-compress.svg";
+import therapy from "../assets/images/therapy-image-min.jpeg";
 import { Link } from "react-router-dom";
 
 export default function AboutMeContainer() {

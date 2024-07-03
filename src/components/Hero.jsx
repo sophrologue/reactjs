@@ -1,34 +1,24 @@
 /* eslint-disable react/no-unescaped-entities */
-// import society_logo from "../assets/thesocietyimg.jpeg";
 import { useInView } from "react-intersection-observer";
-import wallpaper from "../assets/svg/green-hero-compressed.svg";
-import LazyLoad from "react-lazyload";
-import { useEffect, useState } from "react";
+import wallpaper_compressed from "../assets/images/green-hero-min.jpeg";
 export const Hero = () => {
   const { inView, ref } = useInView({ threshold: 0.5 });
-  const [isBackgroundLoaded, setIsBackgroundLoaded] = useState(false);
 
   const transitionStyle = {
     transition: "opacity 2000ms",
     opacity: inView ? 1 : 0,
   };
-  const backgroundStyle = isBackgroundLoaded
-    ? { backgroundImage: `url(${wallpaper})` }
-    : {};
 
-  useEffect(() => {
-    if (inView) {
-      setIsBackgroundLoaded(true);
-    }
-  }, [inView]);
+  const background = {
+    backgroundImage: `url(${wallpaper_compressed}`,
+  };
+
   return (
     <aside className="  relative ">
-      <LazyLoad once>
-        <div
-          className="brightness-75 h-[40rem] bg-cover bg-center bg-no-repeat"
-          style={backgroundStyle}
-        ></div>
-      </LazyLoad>
+      <div
+        className="brightness-75 h-[40rem] bg-cover bg-center bg-no-repeat"
+        style={background}
+      ></div>
       <div
         ref={ref}
         style={transitionStyle}
