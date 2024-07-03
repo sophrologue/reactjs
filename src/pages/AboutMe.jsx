@@ -1,4 +1,5 @@
 import profile_image from "../assets/images/catherine-fabrici-min.png";
+import Title from "../components/Title";
 
 export const AboutMe = () => {
   return (
@@ -34,9 +35,7 @@ export const AboutMe = () => {
       {/* <Career /> */}
       <hr className="h-[20px] bg-gray-100 w-full" />
       <div className=" xsm:px-0 lg:px-[8rem]  xsm:space-y-6 lg:space-y-10">
-        <h3 className="font-bold xsm:text-primary-title-mobile md:text-primary-title-tablet lg:text-primary-title">
-          Qui je suis?
-        </h3>
+        <Title title="Qui je suis?" align="center" />
         <div className="xsm:text-primary-body-mobile md:text-primary-body-tablet lg:text-primary-body space-y-4 ">
           {" "}
           <p>

@@ -1,17 +1,11 @@
 import img from "../assets/sophrologie-compress.jpeg";
 import benefitWallpaper from "../assets/benefit_wallpaper.jpeg";
+import Title from "../components/Title";
 
 export const Sophologie = () => {
   return (
     <div className="max-w-[1250px] w-full mx-auto flex flex-col gap-10 md:p-6 xsm:py-20 xsm:px-6  ">
-      {/* <div className=" mx-auto">
-        <img src={img} alt="cancer support" className="rounded-full" />
-      </div> */}
-      {/* <h1 className="xsm:text-[24px] md:text-[48px] text-center font-bold"> */}
-      <h1 className="xsm:text-primary-title-mobile md:text-primary-title-tablet lg:text-primary-title text-center font-bold">
-        Qu'est-ce que la sophrologie ?
-      </h1>
-      {/* <div className="flex flex-col gap-4 xsm:text-[18px] md:text-[24px]  "> */}
+      <Title title="Qu'est-ce que la sophrologie ?" align="center" />
       <div className="flex flex-col gap-4 xsm:text-primary-body-mobile md:text-primary-body-tablet lg:text-primary-body ">
         <p>
           C'est avant tout une technique simple, une méthode de développement
@@ -108,11 +102,11 @@ export const Sophologie = () => {
           <h2 className="font-bold xsm:text-[28px] md:text-[38px]  text-gray-700  text-center">
             Les bienfaits que cela vous apportera :
           </h2>{" "}
-          <img
+          {/* <img
             src={benefitWallpaper}
             alt="benefits wallpaper"
             className="rounded-full w-[550px] ] mx-auto"
-          />
+          /> */}
           <p className="font-bold  ">
             une meilleure connaissance de soi, un bien-être, une détente
             profonde, une harmonie entre le corps et l'esprit, un renforcement
