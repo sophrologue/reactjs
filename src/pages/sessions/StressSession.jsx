@@ -1,15 +1,19 @@
 import img from "../../assets/stress_at_work-compress.jpg";
+import Title from "../../components/Title";
 
 export const StressSession = () => {
+  const background = {
+    backgroundImage: `url(${img}`,
+  };
   return (
-    <div className="max-w-[1200px] w-full mx-auto">
-      <h1 className="text-center text-6xl p-10"> Le stress en entreprise</h1>
-      <div className=" xsm:w-[100vw] md:w-[40vw] px-10 sn mx-auto ">
-        <img src={img} alt="stress support" className="rounded-full" />
-      </div>
-      `
-      <div className="xsm:mx-2 md:mx-20 xsm:p-4 md:p-10 flex flex-col justify-evenly   ">
-        <div className="flex flex-col gap-4 xsm:text-[18px] md:text-[24px]  ">
+    <section>
+      <div
+        className="xsm:h-[20rem] md:h-[40rem] bg-cover bg-center bg-no-repeat"
+        style={background}
+      ></div>
+      <div className="space-y-8 max-w-[1250px] w-full mx-auto xsm:p-4 md:p-10">
+        <Title title="Le stress en entreprise" align="center" />
+        <div className="xsm:text-primary-body-mobile md:text-primary-body-tablet lg:text-primary-body space-y-4   ">
           <p>
             Le stress professionnel peut avoir des conséquences sur la santé.
             Selon l'OMS (l'organisation mondiale pour la santé) le travail ne
@@ -80,7 +84,7 @@ export const StressSession = () => {
             apaisement, un sentiment de calme et de mieux-être.
           </p>
 
-          <p className="text-2xl text-large font-[700] ">
+          <p className="font-bold">
             La sophrologie, avec des programmes et des exercices ciblés pour la
             gestion du stress, va permettre aux salariés de développer et
             d’accroître leurs capacités en :
@@ -108,7 +112,7 @@ export const StressSession = () => {
             reproduire en toute autonomie.
           </p>
 
-          <p className="text-2xl text-large font-[700] ">
+          <p className="font-bold ">
             Avec la sophrologie, l'entreprise propose des outils simples et
             faciles qui vont aider chaque dirigeant et salarié à la prévention
             et à la gestion du stress pour permettre d'allier bien-être et
@@ -126,6 +130,6 @@ export const StressSession = () => {
           </p>
         </div>
       </div>
-    </div>
+    </section>
   );
 };

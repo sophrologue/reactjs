@@ -1,15 +1,14 @@
 import societyImg from "../assets/thesocietyimg.jpeg";
+import Title from "../components/Title";
 
 export const TheSocietyPage = () => {
   return (
-    <section className="w-screen mb-[200px] xsm:px-10 h-screen max-w-[70rem] mx-auto ">
-      <h1 className="text-4xl my-5 font-[700] text-center">
-        LITIGE – MEDIATION DE LA CONSOMMATION
-      </h1>
+    <section className="p-10 ">
+      <Title title="LITIGE – MEDIATION DE LA CONSOMMATION" align="center" />
       <div className="flex justify-center">
         <img src={societyImg} alt="society" />
       </div>
-      <div className="flex flex-col gap-4">
+      <div className="space-y-4  max-w-[1250px] w-full mx-auto xsm:text-primary-body-mobile md:text-primary-body-tablet lg:text-primary-body">
         {" "}
         <p>
           En cas de litige entre le Client et l’entreprise, ceux-ci

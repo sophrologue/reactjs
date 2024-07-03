@@ -1,16 +1,22 @@
 /* eslint-disable react/no-unescaped-entities */
-import img from "../../assets/happiness-compress.jpg";
+import img from "../../assets/images/happiness-min.jpg";
+import Title from "../../components/Title";
 
 export const PainSession = () => {
+  const background = {
+    backgroundImage: `url(${img}`,
+  };
   return (
-    <div className="max-w-[1200px] w-full mx-auto">
-      <h1 className="text-center text-6xl p-10">Sophrologie et douleur</h1>
-      <div className=" xsm:w-[100vw] md:w-[40vw] px-10 sn mx-auto rounded-full">
-        <img src={img} alt="cancer support" className="rounded-full" />
-      </div>
+    <section>
+      {" "}
+      <div
+        className="xsm:h-[20rem] md:h-[40rem] bg-cover bg-center bg-no-repeat"
+        style={background}
+      ></div>
+      <div className="space-y-8 max-w-[1250px] w-full mx-auto xsm:p-4 md:p-10">
+        <Title title="Sophrologie et douleur" align="center" />
 
-      <div className="xsm:mx-2 md:mx-20 xsm:p-4 md:p-10 flex flex-col justify-evenly   ">
-        <div className="flex flex-col gap-4 xsm:text-[18px] md:text-[24px]  ">
+        <div className="xsm:text-primary-body-mobile md:text-primary-body-tablet lg:text-primary-body space-y-4   ">
           <p>
             La sophrologie va aider les malades à remettre du confort de vie
             dans leur quotidien, à apprendre à repérer et à anticiper la
@@ -36,6 +42,6 @@ export const PainSession = () => {
           </p>
         </div>
       </div>
-    </div>
+    </section>
   );
 };

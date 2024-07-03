@@ -1,14 +1,19 @@
 import img from "../../assets/cancer-compress.jpg";
+import Title from "../../components/Title";
 export const CancerSession = () => {
+  const background = {
+    backgroundImage: `url(${img}`,
+  };
   return (
-    <div className="max-w-[1200px] w-full mx-auto">
-      <h1 className="text-center text-6xl p-10">Sophrologie et cancer</h1>
-      <div className=" xsm:w-[100vw] md:w-[40vw] px-10 sn mx-auto">
-        <img src={img} alt="cancer support" />
-      </div>
-      `
-      <div className="xsm:mx-2 md:mx-20 xsm:p-4 md:p-10 flex flex-col justify-evenly   ">
-        <div className="flex flex-col gap-4 xsm:text-[18px] md:text-[24px]  ">
+    <section>
+      <div
+        className="xsm:h-[20rem] md:h-[40rem] bg-cover bg-center bg-no-repeat"
+        style={background}
+      ></div>
+      <div className="space-y-8 max-w-[1250px] w-full mx-auto xsm:p-4 md:p-10">
+        <Title title="Sophrologie et cancer" align="center" />
+
+        <div className="xsm:text-primary-body-mobile md:text-primary-body-tablet lg:text-primary-body space-y-4   ">
           <p>
             Parce que 350.000 personnes apprennent chaque année qu'elles
             souffrent d'un cancer la sophrologie peut aider et offre un
@@ -16,7 +21,7 @@ export const CancerSession = () => {
             malades.
           </p>
 
-          <p className="text-2xl text-large font-[700] py-2">
+          <p className="font-bold ">
             En aucun cas la sophrologie ne guérit le cancer, elle ne se
             substitue pas au protocole de soin, ni aux traitements médicaux.
           </p>
@@ -36,9 +41,7 @@ export const CancerSession = () => {
             établissement (Nantes, Paris etc ...)
           </p>
 
-          <p className="text-2xl text-large font-[700] ">
-            Atténuer les angoisses des traitements
-          </p>
+          <p className="font-bold ">Atténuer les angoisses des traitements</p>
 
           <p>
             Les personnes souffrant de cancer appréhendent les traitements
@@ -77,11 +80,11 @@ export const CancerSession = () => {
             besoins de la personne et adaptée à sa maladie .
           </p>
 
-          <p className="text-2xl text-large font-[700]">
+          <p className="font-bold">
             J’ADAPTE LES SÉANCES AUX BESOINS DE MES CLIENTS.
           </p>
         </div>
       </div>
-    </div>
+    </section>
   );
 };

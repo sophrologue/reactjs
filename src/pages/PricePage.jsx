@@ -9,13 +9,15 @@ export const PricePage = () => {
   };
 
   return (
-    <section
-      style={background}
-      className="space-y-8  p-10 bg-center bg-cover  bg-no-repeat"
-    >
+    <section className="space-y-8   bg-center bg-cover  bg-no-repeat">
+      {" "}
+      <div
+        className="h-[20rem] bg-cover bg-center bg-no-repeat"
+        style={background}
+      ></div>
       {/* <h1 className="text-4xl my-5 font-[700] text-center">Tarifs</h1> */}
-      <Title title="Tarifs" align="center" />
-      <div className="xsm:p-2 md:p-0 flex  flex-col max-w-[1250px] w-full mx-auto gap-4 xsm:text-[16px] md:text-[20px]">
+      <div className="xsm:p-4 md:p-10 flex  flex-col max-w-[1250px] w-full mx-auto gap-4 xsm:text-[16px] md:text-[20px]">
+        <Title title="Tarifs" align="center" />
         <PriceCard
           backgroundColor="#bfdbfe"
           src={groupIcon}

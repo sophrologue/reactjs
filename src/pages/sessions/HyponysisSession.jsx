@@ -1,24 +1,24 @@
 import img from "../../assets/hypnosis-compress.jpg";
+import Title from "../../components/Title";
 
 export const HyponysisSession = () => {
+  const background = {
+    backgroundImage: `url(${img}`,
+  };
   return (
-    <div className="max-w-[1200px] w-full mx-auto">
-      <h1 className="text-center text-6xl p-10">Hypnose Humaniste</h1>
-      <div className=" xsm:w-[100vw] md:w-[40vw] px-10 sn mx-auto">
-        <img src={img} alt="cancer support" className="rounded-full" />
-      </div>
-
-      <div className="xsm:mx-2 md:mx-20 xsm:p-4 md:p-10 flex flex-col justify-evenly   ">
-        <div className="flex flex-col gap-4 xsm:text-[18px] md:text-[24px]  ">
-          <p className="text-2xl text-large font-[700] py-2">
-            l'hypnose humaniste - Catherine FABRICI
-          </p>
-          <p className="text-2xl text-large font-[700] py-2">
-            L'Hypnose Humaniste pour quoi faire ?
-          </p>
-          <p className="text-2xl text-large font-[700] py-2">
-            L’hypnose est un jeu d’enfant !!
-          </p>
+    <section>
+      <div
+        className="xsm:h-[20rem] md:h-[40rem] bg-cover bg-center bg-no-repeat"
+        style={background}
+      ></div>
+      <div className="space-y-8 max-w-[1250px] w-full mx-auto xsm:p-4 md:p-10">
+        <Title title="Hypnose Humaniste" align="center" />
+        <div className="text-[#555] flex items-center justify-centers flex-col gap-4 text-[20px]">
+          <p className="font-bold">l'hypnose humaniste - Catherine FABRICI</p>
+          <p className="font-bold">L'Hypnose Humaniste pour quoi faire ?</p>
+          <p className="font-bold">L’hypnose est un jeu d’enfant !!</p>
+        </div>
+        <div className="xsm:text-primary-body-mobile md:text-primary-body-tablet lg:text-primary-body space-y-4   ">
           <p>
             Cette technique vous emmène à travers votre image mentale à résoudre
             votre difficulté. Vous avez les clés de la séance entre vos mains.
@@ -66,40 +66,34 @@ export const HyponysisSession = () => {
             contourner ces blocages et aller chercher en profondeur votre
             réponse.
           </p>
-          <p className="text-2xl text-large font-[700] py-2">
+          <p className="font-bold">
             Les thèmes pour lesquels l’hypnose vous aidera particulièrement :
           </p>
-          <p>Stress, angoisse, anxiété, phobies, agoraphobie</p>
-          <p>Addictions</p>
-          <p>TOCS</p>
-          <p>Arrêt tabac</p>
-          <p>Bien-être et développement personnel</p>
-          <p>Burnout</p>
-          <p>Souffrance au travail</p>
-          <p>Fatigue</p>
-          <p>Troubles du sommeil</p>
-          <p>Gestion des émotions, gestion de la douleur</p>
-          <p>Deuil</p>
-          <p>Divorce</p>
-          <p>Dépression</p>
-          <p>Gestion du poids</p>
-          <p className="text-2xl text-large font-[700] py-2">
-            Comment se passe la séance ?
-          </p>
+          <ul className="space-y-2">
+            <li>Stress, angoisse, anxiété, phobies, agoraphobie</li>
+            <li>Addictions</li>
+            <li>TOCS</li>
+            <li>Arrêt tabac</li>
+            <li>Bien-être et développement personnel</li>
+            <li>Burnout</li>
+            <li>Souffrance au travail</li>
+            <li>Fatigue</li>
+            <li>Troubles du sommeil</li>
+            <li>Gestion des émotions, gestion de la douleur</li>
+            <li>Deuil</li>
+            <li>Divorce</li>
+            <li>Dépression</li>
+            <li>Gestion du poids</li>
+          </ul>
+          <p className="font-bold">Comment se passe la séance ?</p>
           <p>
             Une séance d’hypnose débute systématiquement par un premier rdv. Il
             est important pour vous, car il vous permet d’exprimer votre
             problématique et votre objectif pour la consultation. Je e pourrais
             ainsi trouver la meilleure technique pour vous aider.
           </p>
-          {/* <li>
-            Une séance dure environ 1H /1H30 et se déroule dans un esprit de
-            bienveillance et de non-jugement.
-          </p> */}
 
-          <p className="text-2xl text-large font-[700] py-2">
-            Quels bénéfices en attendre ?
-          </p>
+          <p className="font-bold">Quels bénéfices en attendre ?</p>
           <p>
             L’hypnose permet de contourner les freins conscients qui nous
             maintiennent dans une situation ou un état émotionnel donné, et
@@ -113,7 +107,7 @@ export const HyponysisSession = () => {
             J’allie les deux méthodes SOPHROLOGIE ET HYPNOSE HUMANISTE qui sont
             toutes deux extrêmement complémentaires.
           </p>
-          <p className="text-2xl text-large font-[700] py-2">
+          <p className="font-bold">
             Cette technique est accessible à tous adultes, enfants et
             adolescents.
           </p>
@@ -158,9 +152,7 @@ export const HyponysisSession = () => {
             toutes deux extrêmement complémentaires.
           </p>
 
-          <p className="text-2xl text-large font-[700] py-2">
-            Tarif séance hypnose
-          </p>
+          <p className="font-bold">Tarif séance hypnose</p>
 
           <p className="bg-yellow-200">
             Séance hypnose dans le cadre d'un suivi de sophrologie et d'hypnose
@@ -169,6 +161,6 @@ export const HyponysisSession = () => {
           <p className="bg-yellow-200">Séance hypnose seule : 70 euros</p>
         </div>
       </div>
-    </div>
+    </section>
   );
 };

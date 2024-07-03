@@ -6,23 +6,19 @@ import disabledIcon from "../assets/tabler_disabled.svg";
 import groupIcon from "../assets/grommet-icons_group.svg";
 import timeIcon from "../assets/mdi_clock-outline.svg";
 
-import wallpaper from "../assets/contact-wallpaper.jpeg";
+import wallpaper from "../assets/images/contact-wallpaper-min.jpeg";
 
 export const ContactPage = () => {
+  const background = {
+    backgroundImage: `url(${wallpaper}`,
+  };
   return (
-    <div className="max-w-[1200px] w-full mx-auto flex flex-col gap-10 md:p-6 xsm:py-20 xsm:px-6  ">
-      {" "}
-      {/* <h1 className="text-4xl  font-bold text-center text-[42px] ">
-        Me Contacter
-      </h1> */}
-      <div className="xsm:hidden md:block w-full p px-14 sn mx-auto">
-        <img
-          src={wallpaper}
-          alt="contact wallpaper"
-          className=" rounded-2xl "
-        />
-      </div>
-      <div className="flex h-full flex-wrap justify-center xsm:flex-col md:flex-row  xsm:gap-10 md:gap-10 xsm:text-[18px] md:text-[20px] ">
+    <section className="flex flex-col gap-10 ">
+      <div
+        className="h-[40rem] bg-cover bg-center bg-no-repeat"
+        style={background}
+      ></div>
+      <div className="xsm:p-4 md:p-10  max-w-[1250px] w-full mx-auto  flex h-full flex-wrap justify-center xsm:flex-col md:flex-row  xsm:gap-10 md:gap-10 xsm:text-primary-body-mobile md:text-primary-body-tablet lg:text-primary-body  ">
         <div className="relative  xsm:w-full md:w-80 xsm:h-40 md:h-52  bg-blue-300  rounded-lg p-4 flex flex-col gap-4 items-center justify-center">
           <div className=" absolute -top-8  bg-blue-400 md:w-16 xsm:w-14 md:h-16 xsm:h-14 rounded-full flex items-center justify-center">
             <img src={timeIcon} alt="" className="xsm:w-10 md:w-10" />
@@ -55,7 +51,7 @@ export const ContactPage = () => {
             <img src={emailIcon} alt="" className="xsm:w-10 md:w-10" />
           </div>
           <p className="text-center text-white">
-            Par E-mail catherinefabrici.sophrologue@orange.fr
+            Par E-mail catherinefabrici.sophrologue {""}@orange.fr
           </p>
         </div>
         <div className="relative  xsm:w-full md:w-80 xsm:h-40 md:h-52    bg-yellow-300 rounded-lg p-4 flex flex-col gap-4 items-center justify-center">
@@ -83,6 +79,6 @@ export const ContactPage = () => {
           </p>
         </div>
       </div>
-    </div>
+    </section>
   );
 };
