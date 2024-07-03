@@ -1,4 +1,4 @@
-import img from "../../assets/cancer-compress.jpg";
+import img from "../../assets/images/cancer-min.jpg";
 import Title from "../../components/Title";
 export const CancerSession = () => {
   const background = {

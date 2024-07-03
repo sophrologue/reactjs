@@ -1,4 +1,4 @@
-import img from "../../assets/hypnosis-compress.jpg";
+import img from "../../assets/images/hypnosis-min.jpg";
 import Title from "../../components/Title";
 
 export const HyponysisSession = () => {

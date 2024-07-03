@@ -1,4 +1,4 @@
-import img from "../../assets/stress_at_work-compress.jpg";
+import img from "../../assets/images/stress_at_work-min.jpg";
 import Title from "../../components/Title";
 
 export const StressSession = () => {
