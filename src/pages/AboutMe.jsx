@@ -5,7 +5,7 @@ import { useInView } from "react-intersection-observer";
 
 export const AboutMe = () => {
   const { inView: bannerView, ref: bannerRef } = useInView({ threshold: 0.5 });
-  const { inView: bodyView, ref: bodyRef } = useInView({ threshold: 0.5 });
+  const { inView: bodyView, ref: bodyRef } = useInView({ threshold: 0.1 });
 
   const transitionStyle = {
     transition: "opacity 1000ms",
@@ -55,7 +55,7 @@ export const AboutMe = () => {
       <div className="flex xsm:flex-col-reverse lg:flex-row justify-center gap-6 p-10"></div>
       {/* <Career /> */}
       <hr className="h-[10px] bg-gray-100 w-full " />
-      <div className=" p-10  xsm:space-y-6 lg:space-y-10 ">
+      <div className=" xsm:p-4 md:p-10  xsm:space-y-6 lg:space-y-10 ">
         <Title title="Qui je suis?" align="center" />
         <div
           ref={bodyRef}

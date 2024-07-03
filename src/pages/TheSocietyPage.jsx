@@ -8,7 +8,7 @@ export const TheSocietyPage = () => {
       <div className="flex justify-center">
         <img src={societyImg} alt="society" />
       </div>
-      <div className="space-y-4  max-w-[1250px] w-full mx-auto xsm:text-primary-body-mobile md:text-primary-body-tablet lg:text-primary-body">
+      <div className="xsm:p-4 md:p-10 space-y-4  max-w-[1250px] w-full mx-auto xsm:text-primary-body-mobile md:text-primary-body-tablet lg:text-primary-body">
         {" "}
         <p>
           En cas de litige entre le Client et l’entreprise, ceux-ci

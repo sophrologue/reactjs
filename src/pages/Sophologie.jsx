@@ -1,5 +1,3 @@
-import img from "../assets/sophrologie-compress.jpeg";
-import benefitWallpaper from "../assets/benefit_wallpaper.jpeg";
 import Title from "../components/Title";
 import wallpaper from "../assets/images/sophrology-wallpaper.jpeg";
 
@@ -14,7 +12,7 @@ export const Sophologie = () => {
         className="h-[20rem] bg-cover bg-center bg-no-repeat"
         style={background}
       ></div>
-      <div className="max-w-[1250px] w-full mx-auto space-y-4  p-10">
+      <div className="max-w-[1250px] w-full mx-auto space-y-4 xsm:p-4 md:p-10">
         <Title title="Qu'est-ce que la sophrologie ?" align="center" />
         <div className="space-y-4 xsm:text-primary-body-mobile md:text-primary-body-tablet lg:text-primary-body ">
           <p>
