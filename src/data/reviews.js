@@ -197,4 +197,12 @@
     comment:
       "Merci pour tout : l'écoute, la patience, le calme, les conseils, le parcours de sophrologie personnalisé et individualisé. En synthèse : aucune hésitation à aller voir Mme Fabrici.",
   },
+  {
+    id: 26,
+    name: "Béatrice Corsat",
+    date: "06.2024",
+    rating: "5/5",
+    comment:
+      "Personne de confiance qui est à l’écoute. Elle m’a beaucoup aidé à surmonter d’anciens souvenirs d’enfance et à accepter sans angoisse les tracas du quotidien. Elle m’a permis de mieux  géré mon stress grâce a la sophrologie . Je recommande vivement cette belle personne.",
+  },
 ];
