@@ -1,6 +1,6 @@
 /* eslint-disable react/no-unescaped-entities */
 import { useInView } from "react-intersection-observer";
-import wallpaper_compressed from "../assets/images/green-hero-min.jpeg";
+import wallpaper_compressed from "../assets/images/green-hero-min-low.jpg";
 import whatsapp_icon from "../assets/icons/whatsapp-icon(min).png";
 import facebook_icon from "../assets/icons/facebook-icon.png";
 import google_icon from "../assets/icons/google-icon.png";

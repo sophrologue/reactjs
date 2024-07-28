@@ -7,17 +7,25 @@ import groupIcon from "../assets/grommet-icons_group.svg";
 import timeIcon from "../assets/mdi_clock-outline.svg";
 
 import wallpaper from "../assets/images/contact-wallpaper-min.jpeg";
+import wallpaper_low from "../assets/images/contact-wallpaper-min-low.jpg";
+import { LazyLoadImage } from "react-lazy-load-image-component";
+import "react-lazy-load-image-component/src/effects/blur.css";
 
 export const ContactPage = () => {
-  const background = {
-    backgroundImage: `url(${wallpaper}`,
-  };
+  // const background = {
+  //   backgroundImage: `url(${wallpaper}`,
+  // };
   return (
     <section className="flex flex-col gap-10 ">
-      <div
+      {/* <div
         className="h-[40rem] bg-cover bg-center bg-no-repeat"
         style={background}
-      ></div>
+      ></div> */}
+      <LazyLoadImage
+        src={wallpaper}
+        PlaceholderSrc={wallpaper_low}
+        effect="blur"
+      />
       <div className="xsm:p-4 md:p-10  max-w-[1250px] w-full mx-auto  flex h-full flex-wrap justify-center xsm:flex-col md:flex-row  xsm:gap-10 md:gap-10 xsm:text-primary-body-mobile md:text-primary-body-tablet lg:text-primary-body  ">
         <div className="relative  xsm:w-full md:w-80 xsm:h-40 md:h-52  bg-blue-300  rounded-lg p-4 flex flex-col gap-4 items-center justify-center">
           <div className=" absolute -top-8  bg-blue-400 md:w-16 xsm:w-14 md:h-16 xsm:h-14 rounded-full flex items-center justify-center">
