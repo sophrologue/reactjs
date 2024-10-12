@@ -31,7 +31,8 @@ export const Hero = () => {
         <h1 className="xsm:text-[42px] lg:text-[62px] ">Sophrologie</h1>
         <p className="xsm:text-[16px] lg:text-[20px] text-center">
           {" "}
-          " J'ai décidé d'être heureux. "C'est bon pour la santé ! " - Voltaire
+          " J'ai décidé d'être heureux. <br />
+          C'est bon pour la santé ! " <br />- Voltaire
         </p>
       </div>
 
